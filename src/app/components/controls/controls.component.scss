@@ -1,0 +1,32 @@
+@import "../../../styles.scss";
+
+.wrap-controls{
+	display: flex;
+	justify-content: space-between;
+
+	&__btn-controls{
+		background-color: $secondary-color;
+		color: $white;
+		font-family: 'Arimo', sans-serif;
+		padding: 0.5rem 1.125rem;
+		border: none;
+		border-radius: 0.313rem;
+	}
+
+	&__pages{
+		#btn-next{
+			margin-left: 0.625rem;
+		}
+	}
+
+	&__search-bar{
+		width: 28.125rem;
+		height: auto;
+		border: 0.125rem solid $secondary-color;
+	}
+
+	&__search-bar::placeholder{
+		color: #000000;
+		padding-left: 0.625rem;
+	}
+}
