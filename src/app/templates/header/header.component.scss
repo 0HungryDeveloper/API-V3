@@ -1,3 +1,9 @@
-p{
-	color: $primary-color;
+@import "../../../styles.scss";
+
+nav{
+	background-color: $primary-color;
+
+	h2{
+		color: $white;
+	}
 }
